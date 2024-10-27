@@ -1,0 +1,41 @@
+{
+  "name": "borren-vstheme",
+  "displayName": "boRRen Dark Eldritch",
+  "description": "Soft colors heavily inspired from Linkarzu.",
+  "version": "0.2.3",
+  "publisher": "borren",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/borren/borren-vstheme"
+  },
+  "icon": "images/borren-eldrich.jpg",
+  "keywords": [
+    "theme",
+    "borren",
+    "soft",
+    "eldritch",
+    "borren-colors",
+    "borren-vstheme",
+    "borren theme",
+    "borren themes",
+    "borren vscode",
+    "borren eldritch dark",
+    "borren eldritch soft",
+    "borren colorschemes"
+  ],
+  "engines": {
+    "vscode": "^1.94.2"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "boRRen Dark Eldritch",
+        "uiTheme": "vs-dark",
+        "path": "./themes/borren-dark-eldritch.json"
+      }
+    ]
+  }
+}
